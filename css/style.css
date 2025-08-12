@@ -1,0 +1,872 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#header{
+    width: 100%;
+    height: 80px;
+    float: left;
+    background-color: green;
+    position: fixed;
+    z-index: 1000;
+}
+nav{
+    width: 85%;
+    height: 60px;
+    float: left;
+    background-color: none;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    float: left;
+    background-color: none;
+}
+.logo img{
+    width: 100%;
+    height: 60px;
+}
+.navbar{
+    width: 70%;
+    height: 60px;
+    float: right;
+    background-color: none;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    display: inline;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    line-height: 2.0em;
+    border-bottom: 1px solid green;
+}
+.navbar ul li a:hover{
+    text-decoration: none;
+    color: yellowgreen;
+    padding: 5px 20px;
+    line-height: 2.0em;
+    border-bottom: 1px solid white;
+    border-radius: 15px;
+}
+/*
+header ends
+========================
+hero sectin beings
+*/
+.hero{
+    width: 100%;
+    height: 450px;
+    float: left;
+    background-color: brown;
+    background-image: url(../image/55.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+}
+.hero1{
+    width: 100%;
+    height: 250px;
+    float: left;
+    background-color: brown;
+    background-image: url(../image/55.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+}
+.my_hero{
+    width: 30%;
+    height: 150px;
+    float: left;
+    background-color: green;
+    margin-top: 300px;
+    margin-left: 100px;
+    opacity: 0.85;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0 3px 2px ghostwhite;
+    color: white;
+    padding: 0 20px;
+}
+.my_hero1{
+    width: 30%;
+    height: 150px;
+    float: left;
+    background-color: green;
+    margin-top: 50px;
+    margin-left: 600px;
+    opacity: 0.85;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0 3px 2px ghostwhite;
+    color: white;
+    padding: 0 20px;
+    text-align: center;
+}
+.my_hero1 ul{
+    list-style: none;
+    padding-left: 0;
+}
+.my_hero1 ul li{
+    display: inline;
+    padding-left: 0;
+}
+.my_hero1 ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+/*
+Hero section ends
+=======================================
+Main and About us section begins
+*/
+#main{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+#about_us{
+    width: 100%;
+    height: 400px;
+    float: left;
+    background-color: none;
+}
+.about_us{
+    width: 85%;
+    height: 400px;
+    float: left;
+    background-color: none;
+    margin-left: 100px;
+}
+.about_us span{
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 25px;
+    font-weight: bolder;
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.my_about{
+    width: 47%;
+    height: 320px;
+    float: left;
+    background-color: none;
+}
+.sat{
+    float: right;
+}
+.my_about ul{
+    list-style: decimal-leading-zero;
+    padding-left: 23px;
+}
+.my_about ul li{
+    padding: 4px 0;
+}
+.my_about a{
+    border: 1px solid green;
+    padding: 7px 25px;
+    text-decoration: none;
+    color: green;
+    border-radius: 4px;
+}
+.my_about a:hover{
+    border: 1px solid green;
+    padding: 7px 25px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    background-color: green;
+}
+#win{
+    margin-bottom: 40px;
+}
+/*
+about us ends
+==================================
+services begin
+*/
+#services{
+    width: 100%;
+    height: 500px;
+    float: left;
+    background-color: whitesmoke;
+}
+.services{
+    width: 85%;
+    height: 500px;
+    float: left;
+    background-color: none;
+    margin-left: 100px;
+}
+.services span{
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 25px;
+    font-weight: bolder;
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.serve{
+    width: 23%;
+    height: 380px;
+    float: left;
+    background-color: white;
+    margin-left: 30px;
+    box-shadow: 0 3px 3px 2px gainsboro;
+    border-radius: 4px;
+}
+.serve:hover{
+    width: 23%;
+    height: 380px;
+    float: left;
+    background-color: green;
+    margin-left: 30px;
+    box-shadow: 0 3px 3px 2px gainsboro;
+    border-radius: 4px;
+    color: white;
+    cursor: alias;
+    animation-name: emmas;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+@keyframes emmas {
+    from{bottom: 4px;}
+    to{bottom: 5px;}
+}
+.bat{
+    margin-left: 0!important;
+}
+.serve img{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.serve:hover a{
+    color: yellowgreen;
+}
+.serve h2 a{
+    text-decoration: none;
+    color: green;
+}
+.serve h2{
+    margin-top: 3px;
+    margin-bottom: 2px;
+    padding: 0 20px;
+}
+.serve p{
+    padding: 0 20px;
+}
+/*
+services ends
+===============================
+product begins
+*/
+#product{
+    width: 100%;
+    height: 500px;
+    float: left;
+    background-color: none;
+}
+.product{
+    width: 85%;
+    height: 500px;
+    float: left;
+    background-color: none;
+    margin-left: 100px
+}   
+.product span{
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 25px;
+    font-weight: bolder;
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.my_products{
+    width: 32%;
+    height: 380px;
+    float: left;
+    background-color: whitesmoke;
+    margin-left: 22px;
+    box-shadow: 0 3px 3px gainsboro;
+    border-radius: 4px;
+}
+.hart{
+    margin-left: 0!important;
+}
+.my_products img{
+    width: 100%;
+    height: 230px;
+    float: left;
+}
+.my_products h3{
+    padding: 0 20px;
+    margin-top: 10px;
+    float: left;
+    color: green;
+}
+.my_products p{
+    float: left;
+    padding: 0 20px;
+    margin-top: 0;
+}
+.my_products a{
+    float: left;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    border: 1px solid green;
+    padding: 4px 20px;
+    background-color: green;
+    border-radius: 20px;
+}
+.my_products:hover{
+    width: 30.5%;
+    height: 400px;
+    float: left;
+    background-color: green;
+    margin-left: 30px;
+    box-shadow: 0 3px 3px 2px gainsboro;
+    border-radius: 4px;
+    color: white;
+    cursor: alias;
+    animation-name: emmas;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+@keyframes emmas {
+    from{bottom: 4px;}
+    to{bottom: 5px;}
+    }
+.my_products:hover a{
+    color: yellowgreen;
+}
+.my_products:hover h3{
+    color: yellowgreen;
+}
+/*
+products ends
+=======================================
+portfolio begins
+*/
+#portfolio{
+    width: 100%;
+    height: 450px;
+    float: left;
+    background-color: none;
+}
+.portfolio{
+    width: 85%;
+    height: 450px;
+    float: left;
+    background-color: none;
+    margin-left: 100px;
+
+}
+.portfolio span{
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 25px;
+    font-weight: bolder;
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.my_portfolio{
+    width: 32%;
+    height: 350px;
+    float: left;
+    background-color: none;
+    margin-left: 22px;
+    background-image: url(../image/images.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}         
+.ut{
+    margin-left: 0!important;
+}
+.emma{
+    width: 100%;
+    height: 80px;
+    float: left;
+    background-color: green;
+    margin-top: 270px;
+    opacity: 0.85;
+    display: none;
+}
+.emma p{
+    width: 70%;
+    float: left;
+    padding-left: 10px;
+    margin-top: 20px;
+    color: white;
+}
+.emma a{
+    margin-top: 20px;
+    float: left;
+    padding: 3px 10px;
+    border: 1px solid white;
+    text-decoration: white;
+    color: inherit;
+    border-radius: 4px;
+}
+.my_portfolio:hover .emma{
+    display: block;
+}
+/*
+portfolio ends
+=======================================
+blog begins
+*/
+#blog{
+    width: 100%;
+    height: 450px;
+    float: left;
+    background-color: none;
+}
+.blog{
+    width: 85%;
+    height: 450px;
+    float: left;
+    background-color: none;
+    margin-left: 100px;       
+}
+.blog span{
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 25px;
+    font-weight: bolder;
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.my_blog{
+    width: 49%;
+    height: 380px;
+    float: left;
+    background-color: whitesmoke;
+    margin-left: 22px;
+    box-shadow: 0 3px 3px gainsboro;
+    border-radius: 4px;
+}
+.at{
+    margin-left: 0!important;
+}
+.my_blog img{
+    width: 100%;
+    height: 230px;
+    float: left;
+}
+.my_blog h2{
+    padding: 0 20px;
+    margin-top: 10px;
+    float: left;
+    color: green;
+}
+.my_blog p{
+    float: left;
+    padding: 0 20px;
+    margin-top: 0;
+}
+.my_blog a{
+    float: left;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    border: 1px solid green;
+    padding: 4px 20px;
+    background-color: green;
+    border-radius: 20px;
+}
+.my_blog:hover{
+    width: 48%;
+    height: 400px;
+    float: left;
+    background-color: silver;
+    margin-left: 30px;
+    box-shadow: 0 3px 3px 2px gainsboro;
+    border-radius: 4px;
+    color: black;
+    cursor: alias;
+    animation-name: emas;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+@keyframes emas {
+    from{bottom: 4px;}
+    to{bottom: 5px;}
+    }
+.my_blog:hover a{
+    color: white;
+}
+.my_blog:hover h2{
+    color: green;
+}
+/*
+blog ends
+=========================
+Contact us begins
+*/
+#contacts{
+    width: 100%;
+    height: 400px;
+    float: left;
+    background-color: none;
+    margin-top: 80px;
+}
+.contacts{
+    width: 85%;
+    height: 400px;
+    float: left;
+    background-color: none;
+    margin-left: 100px;
+}                
+.contacts span{
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 25px;
+    font-weight: bolder;
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.my_contacts1{
+    width: 48%;
+    height: 300px;
+    float: left;
+    background-color: white;
+    margin-left: 45px;
+    box-shadow: 0 2px 2px 2px gainsboro;
+    border-radius: 4px;
+    background-image: url(../image/image3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ot{
+    margin-left: 0 !important;
+}
+.my_contacts2{
+    width: 48%;
+    height: 300px;
+    float: left;
+    background-color: white;
+    margin-left: 45px;
+    box-shadow: 0 2px 2px 2px gainsboro;
+    border-radius: 4px;
+}
+.my_contacts2:hover{
+    width: 48%;
+    height: 300px;
+    float: left;
+    background-color: green;
+    margin-left: 45px;
+    box-shadow: 0 2px 2px 2px gainsboro;
+    border-radius: 4px;
+    color: white;
+    cursor: alias;
+    animation-name: emmas;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+@keyframes emmas {
+    from{bottom: 4px;}
+    to{bottom: 5px;}
+}
+.my_contacts2 h3{
+    padding: 0 20px;
+    margin-top: 10px;
+    float: left;
+    color: green;
+}
+.my_contacts2:hover h3{
+    color: white;
+}
+.my_contacts2 p{
+    float: left;
+    padding: 0 20px;
+    margin-top: 0;
+}
+.my_contacts2:hover p{
+    color: wheat;
+}
+.my_contacts2 a{
+    padding: 4px 15px;
+    text-decoration: none;
+    color: wheat;
+    margin-left: 10px;
+    border: 1px solid green;
+    background-color: green;
+    border-radius: 10px;
+    float: left;
+}
+.my_contacts2:hover a{
+    border: 1px solid white;
+    color: wheat;
+    background-color: green;
+    border-radius: 15px;
+}
+/*
+section contacts ends
+===================================
+section contact us begins
+*/    
+#contact{
+    width: 100%;
+    height: 630px;
+    float: left;
+    background-color: none;
+}
+.contact{
+    width: 85%;
+    height: 600px;
+    float: left;
+    background-color: none;
+    margin-left: 100px;
+}
+.contact span{
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 25px;
+    color: green;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: -1px 2px 2px black;
+}
+.map{
+    width: 40%;
+    height: 520px;
+    float: left;
+    background-color: none;
+    box-shadow: 0 3px 3px 3px gainsboro;
+    border-top: 3px solid green;
+    border-bottom: 3px solid green
+}
+.message{
+    width: 58%;
+    height: 520px;
+    float: right;
+    background-color: none;
+    box-shadow: 0 3px 3px 3px gainsboro;
+    border-top: 3px solid green;
+    border-bottom: 3px solid green
+}
+.locate{
+    width: 95%;
+    height: 55px;
+    float: left;
+    background-color: none;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.locate h4{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: green;
+}
+.locate p{
+    margin-top: 0;
+    padding-top: 0;
+}
+.veve{
+    margin-top: 1px;
+}
+.gege{
+    height: 300px;
+}
+.mess{
+    width: 47%;
+    height: 55px;
+    float: left;
+    background-color: none;
+    margin-left: 13px;
+    margin-top: 20px;
+}
+.mess input{
+    width: 97%;
+    height: 30px;
+    border-radius: 5px;
+    outline-color: green;
+    border: 1px solid gainsboro;
+}
+.k{
+    margin-top: 5px;
+}
+.g{
+    width: 95.5%;
+}
+.g input{
+    width: 98.5%;
+}
+.p{
+    height: 240px;
+}
+.p textarea{
+    outline-color: green;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+.b{
+    text-align: center;
+}
+.b button{
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+}
+.b button:hover{
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 1px solid green;
+    background-color: white;
+    color: green;
+    cursor: pointer;
+}
+/*
+contact us ends
+==================================
+foter begins
+*/
+#footer{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.main_footer{
+    width: 100%;
+    height: 300px;
+    float: left;
+    background-color: whitesmoke;
+}
+.minor_footer{
+    width: 100%;
+    height: 60px;
+    float: left;
+    background-color: green;
+}
+.footer{
+    width: 85%;
+    height: 300px;
+    float: left;
+    background-color: none
+    ;
+    margin-left: 100px;
+}
+.my_footer{
+    width: 23%;
+    height: 300px;
+    float: left;
+    margin-left: 39.2px;
+    background-color: none;
+}
+.mk{
+    margin-left: 0 !important;
+}
+.my_footer img{
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+}
+.my_footer h6{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: green;
+}
+.my_footer ul{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+.my_footer ul li{
+    padding: 4px 0;
+}
+.my_footer ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.my_footer ul li a:hover{
+    text-decoration: underline;
+    color: green;
+}
+.my_footer input{
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    border:  1px solid green;
+    outline-color: green;
+}
+.my_footer button{
+    width: auto;
+    height: 32px;
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+}
+.my_footer button:hover{
+    width: auto;
+    height: 32px;
+    border: 1px solid green;
+    background-color: whitesmoke;
+    color: green;
+    cursor: pointer;
+}
+
+.minor{
+    width: 85%;
+    height: auto;
+    float: left;
+    background-color: none;
+    margin-left: 100px;
+    margin-top: 20px;
+    color: white;
+}
+.fonts{
+    margin-top: 40px;
+    float: left;
+    font-size: 30px;
+    color: green;
+    
+}
+.fonts i{
+    padding-left: 10px;
+}
