@@ -65,13 +65,24 @@ hero sectin beings
     height: 450px;
     float: left;
     background-color: brown;
-    background-image: url(../image/55.png);
+    background-image: url(../image/socimediawhitelogo2.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 80px;
 }
 .hero1{
+    width: 100%;
+    height: 250px;
+    float: left;
+    background-color: brown;
+    background-image: url(../image/55.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+}
+.hero2{
     width: 100%;
     height: 250px;
     float: left;
@@ -97,6 +108,21 @@ hero sectin beings
     padding: 0 20px;
 }
 .my_hero1{
+    width: 30%;
+    height: 150px;
+    float: left;
+    background-color: green;
+    margin-top: 50px;
+    margin-left: 600px;
+    opacity: 0.85;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0 3px 2px ghostwhite;
+    color: white;
+    padding: 0 20px;
+    text-align: center;
+}
+.my_hero2{
     width: 30%;
     height: 150px;
     float: left;
@@ -402,7 +428,7 @@ portfolio begins
     float: left;
     background-color: none;
     margin-left: 22px;
-    background-image: url(../image/images.jpg);
+    background-image: url(../image/logolon.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -504,6 +530,7 @@ blog begins
     padding: 4px 20px;
     background-color: green;
     border-radius: 20px;
+    margin-bottom: 100px;
 }
 .my_blog:hover{
     width: 48%;
@@ -520,6 +547,8 @@ blog begins
     animation-timing-function: linear;
     position: relative;
     animation-fill-mode: forwards;
+    margin-bottom: 100px;
+    
 }
 @keyframes emas {
     from{bottom: 4px;}
@@ -569,7 +598,7 @@ Contact us begins
     margin-left: 45px;
     box-shadow: 0 2px 2px 2px gainsboro;
     border-radius: 4px;
-    background-image: url(../image/image3.jpg);
+    background-image: url(../image/logonon4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -770,6 +799,7 @@ foter begins
     width: 100%;
     height: auto;
     float: left;
+    margin-top: 25px;
 }
 .main_footer{
     width: 100%;
